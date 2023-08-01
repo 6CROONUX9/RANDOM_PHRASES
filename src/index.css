@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+/* hereda mi html con este comando*/
+*, *::after, *::before { /* elemento despues, elementos antes*/
+  box-sizing: inherit; /* hereda la informacion*/
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}

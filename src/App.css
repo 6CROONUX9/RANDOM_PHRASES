@@ -1,0 +1,42 @@
+
+/* ------------- CONTENEDOR APP --------------*/
+.App {
+  min-height: 100vh; /*medida para el container*/
+  background-position: center; /* centra nuestra Img*/
+  background-size: cover; /*no deja que se estire mi img*/
+  overflow: hidden;
+}
+
+
+/*se encaga de la imagen de fondo*/
+.bg1 {
+  background-image: url("/public/images/bg1.jpg");
+}
+.bg2 {
+  background-image: url("/public/images/bg2.jpg");
+}
+.bg3 {
+  background-image: url("/public/images/bg3.jpg");
+}
+.bg4 {
+  background-image: url("/public/images/bg4.jpg");
+}
+
+.planeta1_Bg {
+  background-image: url("/public/images/planeta1_Bg.png");
+  z-index: 1;
+}
+.planeta2_Bg {
+  background-image: url("/public/images/planeta2_Bg.png");
+  z-index: 1;
+}
+.planeta3_Bg {
+  background-image: url("/public/images/planeta3_Bg.png");
+  z-index: 1;
+}
+.planeta4_Bg {
+  background-image: url("/public/images/planeta4_Bg.png");
+  z-index: 1;
+}
+
+
